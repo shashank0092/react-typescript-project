@@ -1,26 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { type } from "os";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App=()=>{
+
+  // let number:string;
+  // let age:number|string;
+  // let isStudnet:boolean;
+  // let hobbies:string[];
+  // let role:[number,string];
+  // let printName:Function;
+  // let printBoi:(name:string)=>void;
+  // let data1:any;
+  // let data2:never;
+
+  // interface dad{
+  //   color:string
+  // }
+
+  // interface child extends dad {
+  //   age:number
+  // }
+
+  
+  // type x={
+  //   a:number,
+  //   b:string
+  // }
+
+  // type y=x&{
+  //   c:string,
+  //   d:Boolean
+  // }
+
+  // type Person={
+  //   name:string,
+  //   age?:number
+  // }
+
+  // let person:Person={
+  //   name:"shukla",
+  //   age:20
+  // }
+
+  // let lotsOfPeople:Person[];
+  return(
+    <>
+      <p>SHUKLA BOI</p>
+    </>
+  )
 }
 
 export default App;
